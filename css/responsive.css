@@ -35,8 +35,7 @@
   
 
   .s-hero .image {
-    max-width: 46%;
-    height: 40rem;
+    max-width: 100%;
   }
 
 }
