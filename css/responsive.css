@@ -38,6 +38,20 @@
     max-width: 100%;
   }
 
+  .s-card-featured .container {
+    flex-direction: column;  
+  }
+
+  .s-card-featured .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .s-card-featured .cards .card {
+    margin: 0 0 3.2rem 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -71,5 +85,9 @@
 
   h1 {
     font-size: 4.2rem;
+  }
+
+  .s-card-featured .title.center p {
+    text-align: center;
   }
 }
