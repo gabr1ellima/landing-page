@@ -20,7 +20,6 @@
 
 .menu-list {
   display: flex;
-  margin-right: 3.2rem;
 }
 
 .menu-item {
@@ -29,11 +28,6 @@
 
 .menu-list:first-child{
   margin-right: 0px;
-}
-
-.menu-mobile {
-  display: none;
-  margin-right: 0;
 }
 
 .navbar .btn-primary {
